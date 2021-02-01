@@ -1,0 +1,207 @@
+
+  html {
+  font-family: -apple-system,BlinkMacSystemFont,
+  "Segoe UI",Roboto,"Helvetica Neue",
+  Arial,"Noto Sans",sans-serif,"Apple Color Emoji",
+  "Segoe UI Emoji","Segoe UI Symbol",
+  "Noto Color Emoji";
+  line-height: normal !important;}
+
+  body{
+    margin:50px auto;
+    width:600px;
+    /*line-height: 1.6 !important;*/
+    /*overflow:hidden;*/
+    top: 0px;
+  }
+
+  img {
+    width: 300px;
+    max-width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-bottom: 10px;
+  }
+
+  figure{
+    display:table;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  figcaption{
+    display:table-caption;
+    caption-side:bottom;
+    color:#878787;
+    font-size: 14px;
+    padding-bottom:10px;
+    /*margin-left:150px;*/
+    /*width:300px;*/
+  }
+
+  blockquote{
+    border-radius: 10px;
+    border: 2px solid #878787;
+    background-color: #D8D8D8;
+    padding: 20px;
+    font-style: oblique;
+  }
+
+  table{
+    border-collapse:collapse;
+  }
+  td,th{
+    border: 1px solid #000000;
+    padding:8px;
+  }
+
+  #models img{
+    width:600px;
+    display:block;
+    /*margin-left:auto;
+    margin-right:auto;*/
+  }
+
+  /*aside{
+    position:fixed;
+    margin-left:-250px;
+    top:100px;
+    width:200px;
+    text-align:right;
+  }
+
+  aside li{
+    display:block;
+  }
+
+  a, a:visited{
+    text-decoration:none !important;
+    color: #878787;
+  }
+*/
+  a:hover{
+    text-decoration: none;
+  }
+
+  nav{
+    position:fixed;
+    align-self:start;
+  }
+
+  .section-nav ol li.active > a{
+    color: #333;
+	  font-weight: 500;
+  }
+
+  .section-nav{
+    margin-left:-250px;
+    top:100px;
+    width:200px;
+    text-align:right;
+  }
+
+  .section-nav ol a{
+    text-decoration: none;
+	   display: block;
+	    padding: .125rem 0;
+	     color: #ccc;
+	      transition: all 50ms ease-in-out;
+  }
+
+  .section-nav ol a:hover,
+  .section-nav ol a:focus {
+	   color: #666;
+   }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    filter:invert(1);
+  }
+
+h1{
+  font-size:2em !important;
+  font-weight:bold !important;
+}
+
+/*aside h1{
+  font-size:1.5em !important;
+  font-weight:bold !important;
+}*/
+
+h2{
+  font-size:1.5em !important;
+  font-weight:bold !important;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+}
+
+h3{
+  font-size:1.17em !important;
+  font-weight: bold !important;
+  margin-block-start: 1em;
+  /*margin-block-end: 1em;*/
+}
+
+
+  .column{
+    float:left;
+    width:33.33%
+    padding:5px;
+  }
+
+  .row::after{
+    content:"";
+    clear:both;
+    display:table;
+  }
+
+  #table_image{
+    margin-left: 10px;
+  }
+
+  .section-nav ol{
+    list-style:none;
+  }
+  .section-nav h1{
+    font-size:1.5em !important;
+    font-weight:bold !important;
+  }
+  /*may be useless*/
+  /*span.important{
+    text-decoration:none;
+    border-bottom: 2px solid red;
+  }*/
+
+  a{
+    text-decoration: none;
+    color: #333;
+  }
+
+  a:hover{
+    color:#666;
+    text-decoration:none;
+  }
+
+  footer{
+    padding-top: 50px;
+  }
+
+  #commgroup{
+    border-collapse:collapse;
+    text-align:left;
+  }
+
+  #commgroup td, #commgroup th{
+    border:none;
+    vertical-align:top;
+
+  }
+
+  #commgroup th{
+    font-size:20px;
+  }
+
+  #projectlist{
+    line-height: 1.6em;
+  }

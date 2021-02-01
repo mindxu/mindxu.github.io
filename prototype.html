@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8">
+  <title>COGS102C Prototype</title>
+  <link href="lightbox.css" rel="stylesheet" />
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <link href="styles.css" rel="stylesheet"/>
+
+
+</head>
+
+
+<body>
+<nav class="section-nav">
+  <ol>
+  <h1>Table of Contents</h1>
+  <li><a href="#About">About</a></li>
+  <li><a href="#Stakeholders">Our Stakeholders</a></li>
+  <li><a href="#Problems">Problems Identified</a></li>
+  <li><a href="#Ideation">Ideation</a></li>
+  <li><a href="#Testing">Testing</a></li>
+  <li><a href="#Final">Final Prototype</a></li>
+</ol>
+<a href ="/">Back</a>
+</nav>
+
+
+
+
+<div>
+  <h1>Case Study: Virtual Hangout </h1>
+  <p>COGS102C project | Team 21</p>
+  <section id="About"><h2>About</h2>
+  <p>For this class, we were tasked with coming up with a digital solution to
+    help people during the coronavirus pandemic. Examples of some issues that we
+    could have tackled included helping people stay healthy, improving remote work,
+    supporting social distancing, dealing with stress, etc.
+  </p>
+  <p>We chose to focus on helping people stay healthy. This was very broad at first,
+    but was expected to be narrowed down later as we got more information. The people
+    we planned to interview were people who we knew were essential workers. We chose these
+    people because it was less difficult to establish contact with them since we either
+    see them whenever we visit grocery stores and health clinics, or we already
+    knew them personally. Knowing them personally had the added benefit of being
+    easier to interview and conduct prototype tests.
+  </p>
+  <p>In the end, our project was on helping essential workers
+    deal with boredom, and we have created a work-in-progress prototype
+    of an app called Virtual Hangout as
+    one idea of a digital solution.
+  </p>
+</section>
+
+
+  <section id="Stakeholders"><h2>Our stakeholders</h2>
+  <h3>Eve</h3>
+  <p>
+    Eve is an employee at UCSD's Sixth Market. At first she was worried about working
+    during the pandemic because she could potentially catch the virus. But she needed
+    some form of income to help pay for rent. Her workplace has also implemented
+    sanitization procedures, which she is generally satisfied with. During her week off,
+    she has stated that she felt bored and desired to go back to work.
+  </p>
+    <blockquote>
+      I just laid around the house feeling bored and not doing anything. Me and
+      my roommate were just on our phones...so boring. I wanted to go back to work....I
+      don't know how you guys have been able to stay at home all day.
+    </blockquote>
+  <figure>
+    <a href="protoimg/cashier.jpeg" data-lightbox="image-1">
+    <img src="protoimg/cashier.jpeg" alt="Image of workplace">
+    </a>
+    <figcaption>UCSD Sixth Market cash register with plexiglass separating the
+    cashier from the customer.</figcaption>
+  </figure>
+  <figure>
+      <a href="protoimg/feet.jpeg" data-lightbox="image-2">
+      <img src="protoimg/feet.jpeg" alt="Image of feet distance" >
+      </a>
+    <figcaption>Social distance markers for customers waiting in line.
+    </figcaption>
+  </figure>
+  <h3>John</h3>
+  <p>
+    John works as a receptionist for a car insurance company. He doesn't really think
+    his job is essential and confides that most of his job can either be done at home, or not
+    exist at all because "it's not really necessary right now", but he's grateful to
+    still have the job and not be furloughed
+    because then it would be more difficult to pay rent. His workplace has implemented
+    sanitization procedures gradually. John feels generally safe at work because he doesn't
+    interact with a lot of people anyways.
+  </p>
+  <blockquote>
+    We didn't really start using a lot of sanitizer until the coronavirus got
+    really serious. But I've already started some sanitization personally, and I'm glad
+    I still have a job.
+  </blockquote>
+
+</section>
+
+
+  <section id="Problems"><h2>Problems identified</h2>
+  <p>
+    After conducting the interviews, we started mapping out their responses.
+  </p>
+<div id="models">
+  <figure>
+    <a href="protoimg/affinity.png" data-lightbox="image-3">
+    <img src="protoimg/affinity.png" alt="Affinity diagram">
+  </a>
+    <figcaption>Our raw interview data organized into an affinity diagram.</figcaption>
+  </figure>
+  <figure>
+    <a href="protoimg/day.png" data-lightbox="image-4">
+    <img src="protoimg/day.png" alt="Day-in-the-Life model">
+  </a>
+    <figcaption>Our day-in-the-life-model shows, as in the name, the day
+    in the life of a typical essential worker.</figcaption>
+  </figure>
+  <figure>
+    <a href="protoimg/relationship.png" data-lightbox="image-5">
+    <img src="protoimg/relationship.png" alt="Relationship model">
+  </a>
+    <figcaption>The relationship model shows relationships between workers
+    with their family and friends and their work environments during the
+    coronavirus pandemic.
+    </figcaption>
+  </figure>
+  <figure>
+    <a href="protoimg/identity.png" data-lightbox="image-6">
+    <img src="protoimg/identity.png" alt="Identity model">
+  </a>
+    <figcaption>
+      Representing what the stakeholder does and likes and identifies themselves as.
+    </figcaption>
+  </figure>
+</div>
+  <p>Based on these models we have noticed some
+    positives and some negatives:</p>
+    <table>
+      <tr>
+        <th>Positives</th>
+        <th>Negatives</th>
+      </tr>
+      <tr>
+        <td>Though the news and social media show vastly different experiences,
+          our stakeholders were generally satisfied with how their companies have implemented
+          coronavirus sanitization and safety measures.
+        </td>
+        <td>
+          They can't visit or see friends and family in person, and they miss them.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          They are glad that work gives them something to do, and they have people
+            to talk to.
+        </td>
+        <td>
+          Reading the news and social media about the coronavirus pandemic stresses them.
+        </td>
+      </tr>
+      <tr>
+        <td>Though they can no longer go to the gym to work out, their workplaces
+          give them the opportunity to move around and go outside.
+        </td>
+        <td>
+          They can't do the things they like to do for fun such as take walks in
+            the park or attend events because everything is closed.
+        </td>
+      </tr>
+      <tr>
+        <td>Changes in their lifestyles include increased sanitization and
+        more cooking at home.
+        </td>
+        <td>
+          Changes at work include new sanitization rules, low supply and high
+            demand for items, changes in customer behavior (though most are patient
+            and understanding), new or constantly changing work hours.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          They like how everyone is cleaning up after themselves more, using hand
+            sanitizer, and are better at respecting personal space.
+        </td>
+        <td>Not being at work and being at home is relaxing but extremely boring,
+          and as a result they find themselves eager to go back to work.
+        </td>
+      </tr>
+    </table>
+    <p>
+      <br>
+      Looking at the problems we've identified, the team decided to focus on helping
+      stakeholders deal with boredom when not working. We thought this was relevant to
+      many people, not just workers, who are stuck at home during the coronavirus pandemic.
+      Therefore, it would be easier for us to empathesize with them when they describe
+      their issues in dealing with boredom.
+    </p>
+</section>
+
+  <section id="Ideation">  <h2>Ideation</h2>
+    <p>
+      After having narrowed our topic, we brainstormed various solutions that could
+      help deal with boredom.
+    </p>
+    <ol>
+      <li>Give essential workers points for working during pandemic. These points
+      can be redeemed for food, entertainment like movies or games,
+      essential items, etc.
+      <br />
+      <p>Cons: May incentivize workers to work more even though that is not
+      ideal.</p>
+      </li>
+      <li>A map app that shows areas that are open and less crowded so workers
+      can go out and take walks instead of staying indoors all day.
+      <br />
+      <p>Cons: Workers already exercise at work. Though stay-at-home order
+      doesn't necessary mean that they can't go outside to exercise, some
+      workers may still feel unsafe about going out. They also feel too lazy or too
+      tired to leave their homes.</p>
+      </li>
+      <li>Create a virtual world app to help workers connect with friends
+      and family as well as attend virtual events.
+      <br />
+      <p>Cons: Workers are already bored on their phones, and this may continue
+      that boredom. Additionally, creating a virtual world may be beyond
+      our artistic abilities and the scope of this class.</p>
+      </li>
+    </ol>
+    <h3>Storyboards</h3>
+    <p>We drew out these ideas onto storyboards to help better imagine what
+    these activities could look like in our stakeholders' lives.</p>
+    <figure>
+      <a href="protoimg/story1.jpeg" data-lightbox="image-7">
+      <img src="protoimg/story1.jpeg" alt="Storyboard 1">
+    </a>
+      <figcaption>
+        Storyboard of Idea #1
+      </figcaption>
+    </figure>
+    <figure>
+      <a href="protoimg/story2.jpeg" data-lightbox="image-8">
+      <img src="protoimg/story2.jpeg" alt="Storyboard 2">
+    </a>
+      <figcaption>
+        Storyboard of Idea #3
+      </figcaption>
+    </figure>
+    <p>We decided on Idea #3, create a virtual world app, because it dealt with the
+      issues that our stakeholders
+    had with communicating with friends and family, as well as boredom from
+    not having any events to attend and feeling stuck at home when not working.</p>
+    <h3>Low-Fidelity App Design</h3>
+    <p>First we started to map out necessary pages for our app. These pages included
+    a home page with the user's avatar, fashion shops to customize the avatar, and
+    event pages and places that the avatar can visit.</p>
+      <a href="protoimg/map.png" data-lightbox="image-9">
+      <img src="protoimg/map.png" alt="Map of App">
+    </a>
+    <p>Then we individually sketched out our own design for the app pages, later consolidating
+     features that we liked from our designs. </p>
+
+     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+       <img class="d-block w-100" src="protoimg/appsketch1.jpeg" alt="First slide" height="500px">
+     </div>
+     <div class="carousel-item">
+       <img class="d-block w-100" src="protoimg/appsketch2.png" alt="Second slide" height="500px">
+     </div>
+     <div class="carousel-item">
+       <img class="d-block w-100" src="protoimg/appsketch3.png" alt="Third slide" height="500px">
+     </div>
+   </div>
+   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="sr-only">Previous</span>
+   </a>
+   <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="sr-only">Next</span>
+   </a>
+ </div>
+
+ <h3>Mid-fidelity sketches</h3>
+ <p>We translated our sketches onto Figma to create interactive mid-fidelity sketches.
+ We thought that it would be easier to test the app with our Stakeholders digitally
+as this would make more sense and be easier to operate than looking at our sketches.</p>
+<div id="table_image">
+   <div class="row">
+      <div class="column">
+        <a href="protoimg/Home.png" data-lightbox="image-10">
+          <img src="protoimg/Home.png" alt="App Sketch 1">
+        </a>
+      </div>
+      <div class="column">
+        <a href="protoimg/type to chat.png" data-lightbox="image-11">
+        <img src="protoimg/type to chat.png" alt="App Sketch 2">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <a href="protoimg/Visit landscape.jpg" data-lightbox="image-12">
+          <img src="protoimg/Visit landscape.jpg" alt="App Sketch 3">
+        </a>
+      </div>
+      <div class="column">
+        <a href="protoimg/fishing island.png" data-lightbox="image-13">
+          <img src="protoimg/fishing island.png" alt="App Sketch 4">
+        </a>
+      </div>
+    </div>
+</div>
+
+<p>One major roadblock that we came across was that our stakeholders
+ wanted to have a landscape view for the places that they could visit in the app,
+ but the Figma application's prototype tool is fixed at one orientation without
+ any ability to rotate the screen. As a result, we had to create two
+ separate sections for the prototype, one for the
+portrait view of certain pages of the app, and another for the landscape view of the
+event pages. This resulted in having to send in two links to our stakeholders, one to the
+landscape mode prototype and the other to the portrait mode prototype and asking them to pretend
+that they had just rotated their phone.</p>
+
+</section>
+
+<section id="Testing">
+<h2>Testing</h2>
+<p>When showing our stakeholders our rough digital prototype sketches, we asked them
+questions and scenarios related to the functioning of the app to see if the flow of the pages made
+sense. We asked them to say out loud their thought process as they navigated the app.
+While testing the app, we also tried to perceive whether the app succesfully dealt with
+the user's boredom. This was estimated by what activities in the app the user stated they enjoyed
+doing, how long they stated they would spend at an event, and what times of the day they
+would go on the app.
+</p>
+
+<figure>
+<blockquote>
+<b>How would you find out about events in this app?</b>
+
+<br>
+<br>
+Would I have to check social media first?
+
+<br>
+<br>
+<b>You could, but more specifically, try to do it in this app. </b>
+
+<br>
+<br>
+Well, there's a visit arrow, so I'll check that (switches to landscape prototype),
+and I see that there's some places I could
+go to, and then I think I'll click on the music note button labeled Concert hall, and then, okay,
+I see the event happening. It's Pink. I click 'Join' and then...I'm in...right?
+
+<br>
+<br>
+<b>How long would you stay at this event?</b>
+
+<br>
+<br>
+I mean, if they're good Pink songs, I'll stay for like....If the concert is kinda like Fortnite's
+then that's like, what, an hour? I might not actually stare at my phone the entire time, like
+I could listen to the songs in the background.
+</blockquote>
+
+<figcaption>From test interview with a stakeholder about our prototype.</figcaption>
+</figure>
+
+<figure>
+<video width="600px" controls>
+  <source src="protoimg/testprototype.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<figcaption>Testing how one communicates with a friend in the app.</figcaption>
+</figure>
+
+<p>We tried not to indicate or hint to our testers the correct answer or directly tell
+them how to use the app as the goal was to make sure whether the app made sense to them.
+In addition to testing our stakeholders, we also received some feature requests from them.
+</p>
+
+<blockquote>
+  I want to have, like, more ways to customize my avatar. You know, not just clothes
+  for the avatar. Or have more ways to spend money.
+  <br>
+  <br>
+  I would like to see more mini-games because events can be pretty long. Something that
+  I could play while microwaving food.
+  <br>
+  <br>
+  I think the app overall looks really cute. I think the fishing game, though, could
+  have more levels.
+</blockquote>
+</section>
+
+<p>In addition to adding some of their requests, we took the data from the testing interviews
+and added more features such as the ability to invite friends to events, to move your character by
+moving your body in real life, and to earn currency in the game by walking. The friend feature
+encouraged the user to interact with others, and movement features sought to
+make the user more active rather than be soley on their phones. These features also
+sought to make the app more immersive and engaging.  </p>
+
+<section id="Final">
+<h2>Final Prototype</h2>
+<p>Currently we are at the stage of creating our final app prototype with
+  hi-fidelity elements. You can
+interact with it below. Note: You may need to click expand within the Figma embed to
+see the full app.</p>
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600px" height="800px"
+src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXJTUtoZz8bKqsrUV9Ukt5x%2FUntitled%3Fscaling%3Dscale-down%26node-id%3D408%253A895&chrome=DOCUMENTATION"
+allowfullscreen></iframe>
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="600" height="500" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FXJTUtoZz8bKqsrUV9Ukt5x%2FUntitled%3Fnode-id%3D166%253A137%26scaling%3Dscale-down&chrome=DOCUMENTATION" allowfullscreen></iframe>
+
+</section>
+
+</div>
+<script src="lightbox-plus-jquery.js"></script>
+
+<script src="navmenu.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
